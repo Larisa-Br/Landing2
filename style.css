@@ -1,0 +1,121 @@
+:root {
+  --black: #000;
+  --dark-grey: #828282;
+  --cyan-grey: #F6F6F6;
+  --light-grey: #E5E5E5;
+}
+
+body {
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.6em;
+  font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+h6 {
+    font-size: 0.7em;
+    font-weight: 600;
+    color:var(--dark-grey); 
+}
+
+p {
+    margin-bottom: 2em;
+}
+h3 {
+  font-weight: inherit;
+}
+.container {
+  max-width: 945px;
+
+  margin: 0 auto;
+}
+
+.mb-2{
+    margin-bottom: 2em;
+}
+.f-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-end {
+  align-items: flex-end;
+}
+
+.container-sm {
+margin:0 auto;
+max-width: 500px;
+}
+
+.text-grey {
+  color: var(--dark-grey);
+}
+
+.text-vertical {
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+.bg-cyan-grey {
+    background: var(--cyan-grey);
+}
+.text-center {
+    text-align: center;
+}
+
+
+.stars div {
+    background: url("/assets/star.svg") center center / 1.2em 1.2em no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.stars .grey {
+    background: url("/assets/star-grey.svg") center center / 1.2em 1.2em no-repeat;
+   
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gap {
+    gap: 2em;
+}
+
+nav {
+  border-bottom: 2px solid var(--dark-grey);
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-grey);
+  padding: 1.8em 0;
+}
+
+nav a:hover {
+  color: var(--black);
+}
+
+section {
+padding: 2em 0;  
+min-height: 500px; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
